@@ -24,7 +24,7 @@ body{
     margin: 0 auto;
     background-size: cover;
     background-position:center ;  
-    animation: spin 3s linear infinite ;               
+    animation: spin 2s linear infinite ;               
 }
 
 h2:hover{
@@ -37,8 +37,12 @@ h2{
     color: #03101e;
     background-color: #bdefbd;
     border-radius: 10px;
-    transition: 3s;
-    
+    transition: 2s;    
+}
+
+h2:hover {
+    border: 2px solid silver;
+
 }
 .section {
     margin-bottom: 20px;
@@ -67,6 +71,10 @@ h1:hover{
     cursor: pointer;
 }
 
+h1:hover{
+    border: 2px solid silver;
+}
+
 h1{
     background-color: rgb(135, 235, 215);
     height: 50px;
@@ -75,7 +83,7 @@ h1{
     margin : 20px auto;
     border-radius: 10px;
     line-height: 50px; 
-    transition: 3s; 
+    transition: 2s; 
     
 }
 
@@ -85,6 +93,10 @@ h1{
     cursor: pointer;
 }
 
+.Date:hover{
+    border: 2px solid silver;
+}
+
 .Date{
     background-color: rgb(236, 202, 228);
     font-size: 0.85rem;
@@ -92,13 +104,17 @@ h1{
     padding: 5px 10px;
     display: inline-block;
     border-radius: 5px;  
-    transition: 3s; 
+    transition: 2s; 
 }
 
 .Day:hover{
     background-color: blue;
     border-color: black;
     cursor: pointer;
+}
+
+.Day:hover{
+    border: 2px solid silver;
 }
 
 .Day{
@@ -108,7 +124,7 @@ h1{
     padding: 5px 10px;
     display: inline-block;
     border-radius: 5px;
-    transition: 3s;
+    transition: 2s;
 }
 
 .border{
